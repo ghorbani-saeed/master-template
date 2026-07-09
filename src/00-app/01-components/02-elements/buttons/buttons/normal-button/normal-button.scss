@@ -1,0 +1,61 @@
+.arrow-btn {
+  /* Layout-Grundgerüst für die perfekte Ausrichtung von Text und Icon */
+  display: flex;             // Aktiviert Flexbox für das Button-Innere
+  align-items: center;       // Zentriert Elemente vertikal
+  justify-content: center;   // Zentriert Elemente horizontal
+  gap: 8px;                  // Erzeugt den Abstand zwischen Text und Icon
+  padding: 12px 24px;        // Innenabstand: Button-Größe und Klickfläche
+  
+  /* Optische Gestaltung und Branding */
+  background-color: var(--bright-blue, #29abe2); // Nutzt Variable, sonst Standard-Blau
+  color: #ffffff;            // Schriftfarbe Weiß für hohen Kontrast
+  border: none;              // Entfernt den Standard-Browser-Rahmen
+  border-radius: 8px;        // Abgerundete Ecken für modernen Look
+  cursor: pointer;           // Zeigt dem Nutzer: "Ich bin klickbar"
+  
+  /* Typografie */
+  font-family: 'Inter', sans-serif; // Setzt die Schriftart
+  font-size: 16px;           // Angenehme Lesegröße
+  font-weight: 600;          // Kräftige Schriftstärke
+  
+  /* Animation für sanfte Übergänge (Hover/Click) */
+  transition: all 0.2s ease-in-out;
+  
+  /* Zustand bei Mausbewegung über dem Button */
+  &:hover {
+    filter: brightness(1.1); // Erhöht die Helligkeit leicht (Glanz-Effekt)
+    transform: translateY(-1px); // Lässt den Button "schweben"
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Schatten für räumliche Tiefe
+
+    /* Der "Tanz-Effekt": Verschiebt das Icon bei Hover */
+    .btn-icon {
+      transform: translateX(-4px); // Bewegt das Icon nach links (oder rechts bei +)
+    }
+  }
+
+  /* Zustand bei aktivem Mausklick */
+  &:active {
+    transform: translateY(0); // Button geht zurück auf die Basisposition (Klick-Feedback)
+  }
+
+  /* Responsivität für Smartphones */
+  @media (max-width: 480px) {
+    padding: 10px 16px;      // Button wird auf Handys kompakter
+    font-size: 14px;         // Schriftgröße wird minimal reduziert
+  }
+
+  /* Styling für das Text-Element */
+  .btn-text {
+    white-space: nowrap;     // Verhindert, dass der Text umbricht
+    text-align: center;
+  }
+
+  /* Styling für das Icon-Element */
+  .btn-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1); // Wandelt schwarze SVGs in Weiß um
+    flex-shrink: 0;          // Verhindert, dass das Icon zusammengestaucht wird
+    transition: transform 0.2s ease; // Sorgt für die flüssige Bewegung beim Tanzen
+  }
+}

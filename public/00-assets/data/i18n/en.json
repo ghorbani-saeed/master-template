@@ -1,0 +1,164 @@
+{
+"POLICY": {
+    "TITLE": "Privacy Policy",
+    "BACK_ARIA": "Back to main page",
+    "BACK_ICON_ALT": "Arrow Left",
+    "SECTION_1_TITLE": "1. Introduction",
+    "SECTION_1_TEXT": "The protection of your personal data is very important to me. Below, I inform you about which data is collected when you visit my website.",
+    "SECTION_2_TITLE": "2. Data Controller",
+    "SECTION_2_TEXT": "Responsible for data processing is: {{name}}, {{address}}, {{city}}. Email: {{email}}",
+    "SECTION_3_TITLE": "3. Hosting and Server Log Files",
+    "SECTION_3_TEXT": "When visiting, technically necessary data (IP address, date/time) is collected. NOTE: Check Data Processing Agreement (DPA) with your hoster.",
+    "SECTION_4_TITLE": "4. Integrated Tools & Services",
+    "SECTION_4_TEXT": "This website may use external services (e.g., Google Fonts/Maps). NOTE: Check if these are hosted locally or if specific disclosures are needed.",
+    "SECTION_5_TITLE": "5. Contacting Me",
+    "SECTION_5_TEXT": "If you contact me via email, I process your data in order to respond to your inquiry (Art. 6 para. 1 lit. b/f GDPR).",
+    "SECTION_6_TITLE": "6. Data Security",
+    "SECTION_6_TEXT": "I use SSL encryption to protect your data during transmission.",
+    "SECTION_7_TITLE": "7. Data Subject Rights",
+    "SECTION_7_TEXT": "You have the right to access, rectification, erasure, and to object to processing.",
+    "SECTION_8_TITLE": "8. Right to Lodge a Complaint",
+    "SECTION_8_TEXT": "Furthermore, you can lodge a complaint with a supervisory authority.",
+    "SECTION_9_TITLE": "9. Accessibility",
+    "SECTION_9_TEXT": "This policy is accessible from every page of your website via the footer with a maximum of two clicks.",
+    "SECTION_10_TITLE": "10. Updates to This Policy",
+    "SECTION_10_TEXT": "I reserve the right to update this privacy policy due to legal changes.",
+    "SECTION_11_TITLE": "11. Status",
+    "SECTION_11_TEXT": "Last updated: xx, 2026"
+  },
+  "LEGAL": {
+    "TITLE": "Imprint",
+    "BACK_ARIA": "Back to main page",
+    "BACK_ICON_ALT": "Arrow Right to Links",
+    "IMPRINT_TITLE": "Information according to Section 5 DDG",
+    "IMPRINT_TEXT": "Service provider of this website:",
+    "CONTACT_TITLE": "Contact",
+    "CONTACT_TEXT": "Email: {{email}}",
+    "RESPONSIBLE_TITLE": "Responsible for content according to Section 18 (2) MStV",
+    "DISPUTE_TITLE": "Consumer dispute resolution (Section 36 VSBG)",
+    "DISPUTE_TEXT": "I am neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "LIABILITY_TITLE": "Liability for content",
+    "LIABILITY_TEXT": "For the content of my portfolio website, I am personally responsible according to German law.",
+    "COPYRIGHT_TITLE": "Copyright",
+    "COPYRIGHT_TEXT": "All images, texts and designs on this portfolio are protected by copyright. Any unauthorized duplication or use requires my prior permission",
+    "DATE_TEXT": "Date: xxx 2026"
+  },
+  "HEADER": {
+    "LOGO_ARIA": "Go to homepage",
+    "LOGO_ALT": "Logo",
+    "CONTROLS_ARIA": "Language and menu controls",
+    "LANG_SELECTION_ARIA": "Language selection",
+    "BURGER_OPEN_ARIA": "Open navigation menu",
+    "BURGER_CLOSE_ARIA": "Close navigation menu",
+    "MENU_ARIA": "Main navigation menu",
+    "NAV_ARIA": "Main navigation",
+    "NAV_ABOUT": "About me",
+    "NAV_SKILLS": "My skills",
+    "NAV_PORTFOLIO": "Portfolio",
+    "FOOTER_ARIA": "Footer with contact information",
+    "CONTACT_TITLE": "Say hi!",
+    "SOCIAL_GITHUB_ARIA": "GitHub profile",
+    "SOCIAL_GITHUB_ALT": "GitHub icon",
+    "SOCIAL_MAIL_ARIA": "Send email",
+    "SOCIAL_MAIL_ALT": "Mail icon",
+    "SOCIAL_LINKEDIN_ARIA": "LinkedIn profile",
+    "SOCIAL_LINKEDIN_ALT": "LinkedIn icon"
+  },
+  "HERO": {
+    "ARIA_LABEL": "Intro",
+    "TITLE_FRONTEND": "Frontend",
+    "TITLE_DEVELOPER": "Developer",
+    "SCROLL_TEXT": "Scroll Down",
+    "ARROW_ALT": "Arrow icon"
+  },
+  "ABOUT": {
+    "ARIA_LABEL": "About me",
+    "TITLE": "About me",
+    "DESCRIPTION_LINE_1": "Frontend developer with system DNA: Before dedicating myself fully to Angular and TypeScript through an intensive training program, my main focus was on system integration.",
+    "DESCRIPTION_LINE_2": "This expertise in servers, interfaces, and IT infrastructure gives me a massive advantage in web development today when it comes to solving complex problems.",
+    "DESCRIPTION_LINE_3": "I focus on building modular, clearly structured components and strive to technically outdo myself with every new project.",
+    "HOUSE_ICON_ALT": "House icon",
+    "LAPTOP_ICON_ALT": "Laptop icon",
+    "HIGHLIGHT_LOCATION": "Wohnhaft in Kalkar, NRW",
+    "HIGHLIGHT_REMOTE": "Open to work Remote",
+    "CTA": "Let's talk",
+    "PORTRAIT_ALT": "Portrait photo",
+    "SEPARATOR_ARIA": "Go to skills section"
+  },
+  "SKILLS": {
+    "TITLE": "My skills",
+    "CTA_ICON_ALT": "Continued learning icon",
+    "CTA_TEXT_START": "Don't see the skill you need?",
+    "CTA_LINK": "Contact me",
+    "CTA_TEXT_END": "I'm always ready to learn!",
+    "SEPARATOR_ARIA": "Go to portfolio section"
+  },
+  "PORTFOLIO": {
+    "ARIA_LABEL": "Portfolio",
+    "TITLE": "Portfolio",
+    "SUBTITLE": "Explore a selection of my work here - interact with projects to see my skills in action.",
+    "ARROW_ALT": "Arrow icon",
+    "GITHUB_LINK": "GitHub",
+    "PROJECTS": {
+      "EL_POLLO_LOCO": {
+        "DESCRIPTION": "🎮 A fun 2D action game developed with HTML, CSS, and JavaScript, where the player controls a chicken running through various levels, overcoming obstacles, collecting coins, and fighting enemies. The game features animations, sound effects, background music, and simple level mechanics."
+      },
+      "POKEDEX": {
+        "DESCRIPTION": "Developed with HTML, CSS, and JavaScript, this project displays a list of Pokémon with search functionality, type-based color coding, overlays for detailed stats, and a responsive design."
+      },
+      "BESTELL_APP": {
+        "DESCRIPTION": "🍕 An interactive pizza and pasta ordering web app. The project features a dynamic menu, a fully functional shopping cart with real-time price calculation, and a fully responsive design for seamless ordering on all devices."
+      }
+    }
+  },
+  "REFERENCES": {
+    "TITLE": "References",
+    "INTRO": "I thrive both independently and as part of a team. Here's what my colleagues have to say about working with me.",
+    "QUOTE_ALT": "Quote icon",
+    "SEPARATOR_ARIA": "Go to contact section",
+    "LIST": {
+      "USER_1": {
+        "ROLE": "Team Partner",
+        "TEXT": "aeed has a real knack for cleanly transforming complex design concepts into responsive, high-performance Angular components. Communication was completely seamless, and he always proactively suggested clever solutions whenever project challenges arose. A fantastic team player!"
+      },
+      "USER_2": {
+        "ROLE": "Team Partner",
+        "TEXT": "Working with Saeed was an absolute pleasure. He brings remarkable structure to his work and delivered our frontend project not only on time, but also with outstanding code quality. You can completely rely on his word and his technical expertise at all times."
+      },
+      "USER_3": {
+        "ROLE": "Frontend Engineer",
+        "TEXT": "From the very first minute, our collaboration was defined by a high level of professionalism. Saeed thinks outside the box and places great value on clean, maintainable TypeScript code. The partnership was a complete success, and I would happily start another project with him anytime."
+      }
+    }
+  },
+  "CONTACT": {
+    "ARIA_LABEL": "Contact me",
+    "TITLE": "Say Hi!",
+    "HEADLINE": "Building something real from a simple sketch?",
+    "SUBHEADLINE": "If you are looking for support with digital implementation or need technical reinforcement, let’s connect with no strings attached.",
+    "LABEL_NAME": "Your name",
+    "LABEL_EMAIL": "Your email",
+    "LABEL_MESSAGE": "Your message",
+    "ERROR_NAME": "Please enter a name.",
+    "ERROR_EMAIL": "Please enter a valid email address.",
+    "ERROR_MESSAGE": "Please enter a message.",
+    "ERROR_PRIVACY": "Please accept the privacy policy.",
+    "CHECK_ICON_ALT": "Check icon",
+    "PRIVACY_TEXT_START": "I have read the",
+    "PRIVACY_LINK": "privacy policy",
+    "PRIVACY_TEXT_END": "and agree to the processing of my data as outlined.",
+    "SUBMIT": "Send message"
+  },
+  "FOOTER": {
+    "LOGO_ARIA": "Go to homepage",
+    "LOGO_ALT": "Logo",
+    "SOCIAL_ARIA": "Social links",
+    "SOCIAL_GITHUB_ARIA": "GitHub profile",
+    "SOCIAL_GITHUB_ALT": "GitHub icon",
+    "SOCIAL_MAIL_ARIA": "Send email",
+    "SOCIAL_MAIL_ALT": "Mail icon",
+    "SOCIAL_LINKEDIN_ARIA": "LinkedIn profile",
+    "SOCIAL_LINKEDIN_ALT": "LinkedIn icon",
+    "LEGAL_NOTICE": "Legal notice"
+  }
+}

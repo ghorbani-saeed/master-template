@@ -1,0 +1,19 @@
+
+<!-- richtig modulare button dass man überall nutzen kann mit möglichkeit den icon zu button hinzufügen -->
+<button class="arrow-btn">
+  <span class="btn-text"><ng-content></ng-content></span>
+  
+  @if (iconPath) {
+    <img [src]="iconPath" alt="Button Icon" class="btn-icon">
+  }
+</button>
+
+
+
+<!-- ######    ganz primitiv, es ist nicht modular weil hier auch 
+ img icon für zurück eingegeben ist, wenn ich zb andere icon will geht nicht ###### -->
+
+<!-- <button class="arrow-btn">
+  <span class="btn-text"><ng-content></ng-content></span>
+  <img src="assets/img/back.svg" class="arrow-icon">
+</button> -->
