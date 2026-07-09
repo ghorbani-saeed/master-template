@@ -1,0 +1,11 @@
+.alarm-text {
+  /* Animation zwischen zwei Rottönen */
+  animation: color-pulse 2s infinite;
+  font-weight: bold;
+}
+
+@keyframes color-pulse {
+  0% { color: rgb(240, 12, 12); }
+  50% { color: rgb(255, 100, 100); } /* Helleres Rot */
+  100% { color: rgb(240, 12, 12); }
+}

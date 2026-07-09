@@ -1,17 +1,126 @@
 <section class="legal-content-wrapper">
-  <article class="legal-page-article">
-    <header class="heading">
-      <h1>Help</h1>
-      <app-normal-button (click)="back()" iconPath="./00-assets/img/icons/09-arrows/arrow-right-left/left-arrow.png">
-        Back
-      </app-normal-button>
-    </header>
+    <article class="legal-page-article">
+        <header class="heading">
+            <h1>Help</h1>
+            <app-normal-button
+                (click)="back()"
+                iconPath="./00-assets/img/icons/09-arrows/arrow-right-left/left-arrow.png"
+            >
+                Back / Zurück
+            </app-normal-button>
+        </header>
 
-    <p>
-      Welcome to the help page 
-      
-    </p>
-    
-    <p>Enjoy using Template</p>
-  </article>
+        <h2>Welcome to the template-help-page</h2>
+        <h2># READ ME</h2>
+        <h2># 🚀 Master-Template</h2>
+        <p>
+            Ein standardisiertes Angular-Template für saubere, skalierbare
+            Projekte. Es bietet eine klare Ordnerstruktur, ein vorkonfiguriertes
+            Asset-Management und eine strikte Trennung von Logik und statischen
+            Inhalten. <br />
+            <br />
+
+            ⚠️ WICHTIG: <br />
+            Führe in diesem Ordner niemals den Befehl `ng new projekt-name` aus,
+            da dies dein gesamtes Template löschen oder beschädigen würde.
+            Kopiere stattdessen einfach den gesamten Ordner als Basis für neue
+            Angular-Projekte! <br /><br />
+
+            🛠️ Verwendung des Templates <br /><br />
+
+            Wähle eine der folgenden Methoden, um ein neues Projekt zu starten:
+            <br /><br />
+
+            Methode 1: Der "Copy & Paste" Workflow (Für schnelle Projekte) 1.
+            Kopieren: Kopiere den gesamten `master-template` Ordner und benenne
+            ihn in deinen neuen Projektnamen um. 2. Bereinigen: Lösche den
+            Ordner `node_modules` und die Datei `package-lock.json`. 3.
+            Installieren: Öffne das Terminal im neuen Ordner und führe `npm
+            install` aus. 4. Git-Reset: Lösche den versteckten `.git`-Ordner und
+            initialisiere Git neu mit `git init`, `git add .` und `git commit -m
+            "Init"`. <br /><br />
+
+            Methode 2: Der GitHub-Template Workflow (Der professionelle Weg) 1.
+            Lade den `master-template` Ordner in ein neues GitHub-Repository
+            hoch. 2. Aktiviere in den Repository Settings** die Option "Template
+            repository". 3. Start: Klicke bei zukünftigen Projekten auf GitHub
+            einfach auf den Button "Use this template". GitHub generiert
+            automatisch ein neues Repository für dich. <br /><br />
+
+            Methode 3: Die Wartungs-Regel (Goldstandard) Dieses Template ist
+            dein "Goldstandard". Wenn du während der Arbeit an einem Projekt
+            merkst, dass eine Einstellung (z.B. in der `tsconfig` oder
+            `angular.json`) verbessert werden kann, übertrage diese Änderung
+            zurück in das Master-Template. So bleiben all deine Projekte auf dem
+            neuesten Stand. <br /><br />
+
+            📂 Struktur-Guide <br /><br />
+
+            `/public`: Hier liegen alle statischen Assets (Bilder, Schriften,
+            Favicons, JSON-Daten). Alles hier ist über `/` erreichbar. <br />
+            `/src/00-app`: Hier liegt die gesamte Angular-Logik. <br />
+            `/src/00-app/01-components`: Dein Hauptverzeichnis für
+            UI-Komponenten. <br />
+            Schema: `00-pages`, `01-blocks`, `02-elements`. <br />
+            `/public/api/sendMail.php`: Backend-Logik für Kontaktformulare
+            (benötigt PHP-Server). <br />
+            <br />
+
+            🚀 Installation & Start <br />
+            <br />
+            Abhängigkeiten installieren <br />
+            npm install <br />
+            <br />
+
+            Entwicklungsserver starten <br />
+            npm start
+        </p>
+        <h2>LICENSE</h2>
+        <p>
+            MIT License Copyright (c) 2026 Saeed Ghorbani <br /><br />
+
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy of this software and associated documentation files
+            (the "Software"), to deal in the Software without restriction,
+            including without limitation the rights to use, copy, modify, merge,
+            publish, distribute, sublicense, and/or sell copies of the Software,
+            and to permit persons to whom the Software is furnished to do so,
+            subject to the following conditions: The above copyright notice and
+            this permission notice shall be included in all copies or
+            substantial portions of the Software. <br />
+            <br />
+
+            <span class="alarm-text">
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+                OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+                HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+                WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+                FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+                OTHER DEALINGS IN THE SOFTWARE.
+            </span>
+
+            <br />
+            <br />
+
+            --- DEUTSCHE ERLÄUTERUNG (NICHT RECHTSVERBINDLICH): <br />
+            Die MIT-Lizenz ist eine sehr kurze und einfache Open-Source-Lizenz.
+            <br />
+            <br />
+            - Du darfst den Code kopieren, verändern, veröffentlichen und
+            verkaufen. <br />
+            - Du musst lediglich sicherstellen, dass dieser Lizenztext im Code
+            enthalten bleibt. <br />
+            - HAFTUNGSAUSSCHLUSS: Die Software wird "wie besehen" (AS IS)
+            bereitgestellt.
+            <br />
+        </p>
+        <h2 class="alarm-text">
+            Ich übernehme keinerlei Haftung für Schäden, Datenverluste oder
+            sonstige Folgen, die aus der Nutzung dieser Software entstehen
+            könnten. Die Verwendung erfolgt auf eigenes Risiko.
+        </h2>
+        <p style="color: blue">Enjoy using it!</p>
+    </article>
 </section>
